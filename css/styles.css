@@ -138,6 +138,7 @@ header {
 }
 
 .adr-item {
+    display: flex;
     margin-left: 50px;
 }
 .adr-link
@@ -146,11 +147,21 @@ header {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+.adr-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-accent2);
+    margin-right: 10px;
+}
+
 .menu-link:hover,
 .adr-link:hover,
 .address-text:hover,
 .address-link:hover {
     color: var(--color-link);
+}
+.adr-link:hover .adr-icon {
+    fill: var(--color-link);
 }
 
 .menu-link:focus,
@@ -166,6 +177,7 @@ section {
     padding: 94px 0;
 }
 /* Header title*/
+
 .hero {
     font-weight: 900;
     font-size: 44px;
@@ -204,8 +216,12 @@ section {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    
+    background-image: url(../images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(47, 48, 58, 0.4); */
 }
+
     
 /* Benefits */
 .benefits-list-inner {
@@ -235,6 +251,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+    margin-top: 30px;
     
 }
 .big-title {
@@ -254,6 +271,14 @@ section {
 .team-text,
 .portfolio-text {
     color: var(--color-accent2);
+}
+
+.benefits-icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    fill: var(--color-accent1);
+    padding: 25px auto;
 }
 
 /* About */
