@@ -77,10 +77,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     align-content: center;
-    
-    
+        
 }
 header {
     border-bottom: 1px solid #ececec;
@@ -163,7 +161,7 @@ header {
 .address-text:hover,
 .address-link:hover {
     color: var(--color-link);
-    text-decoration: underline;
+    
 }
 .adr-link:hover .adr-icon {
     fill: var(--color-link);
@@ -174,7 +172,7 @@ header {
 .address-text:focus,
 .address-link:focus {
     color: var(--color-link);
-    text-decoration: underline;
+    
 }
 
 /* section */
@@ -612,7 +610,6 @@ address {
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    
 }
 .portfolio-text {
     font-size: 16px;
