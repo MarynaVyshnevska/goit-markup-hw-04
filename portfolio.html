@@ -43,10 +43,20 @@
                 <div>
                     <ul class="adr">
                         <li class="adr-item">
-                            <a class="adr-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a class="adr-link" href="mailto:info@devstudio.com">
+                                <svg class="adr-icon">
+                                    <use href="./images/icons.svg#envelope" aria-hidden="true"></use>
+                                </svg>
+                                info@devstudio.com
+                            </a>
                         </li>
                         <li class="adr-item">
-                            <a class="adr-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            <a class="adr-link" href="tel:+380961111111">
+                                <svg class="adr-icon">
+                                    <use href="./images/icons.svg#smartphone" aria-hidden="true"></use>
+                                </svg>
+                                +38 096 111 11 11
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -163,25 +173,63 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-section">
             <!-- Нижняя линия -->
-            <a href="./index.html">
-                <span class="logo-first">Web</span>
-                <span class="logo-white">Studio</span>
-            </a>
-            <address>
-                <ul>
-                    <li>
-                        <a class="address-text" href="">г. Киев, пр-т Леси Украинки, 26</a>
+            <div>
+                <div>
+                    <a href="./index.html">
+                        <span class="logo-first">Web</span>
+                        <span class="logo-white">Studio</span>
+                    </a>
+                </div>
+                <address>
+                    <ul>
+                        <li class="address-li">
+                            <a class="address-text" href="">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li>
+                            <a class="address-link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <!-- Присоединяйтесь -->
+            <div class="come-on">
+                <h4 class="come-on-title">Присоединяйтесь</h4>
+                <ul class="come-on-list">
+                    <li class="come-on-box">
+                        <button class="come-on-button">
+                            <svg class="come-on-icon">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </button>
                     </li>
-                    <li>
-                        <a class="address-link" href="mailto:info@example.com">info@example.com</a>
+                    <li class="come-on-box">
+                        <button class="come-on-button">
+                            <svg class="come-on-icon">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </button>
                     </li>
-                    <li>
-                        <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="come-on-box">
+                        <button class="come-on-button">
+                            <svg class="come-on-icon">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="come-on-box">
+                        <button class="come-on-button">
+                            <svg class="come-on-icon">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </button>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
