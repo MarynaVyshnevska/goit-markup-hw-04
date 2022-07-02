@@ -64,6 +64,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -139,17 +140,20 @@ header {
 }
 
 .adr-item {
-    display: flex;
+    
     margin-left: 50px;
     align-items: center;
 }
 .adr-link
-{
+{ 
+    display: flex;
     color: var(--color-accent2);
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+
 .adr-icon {
+    
     width: 16px;
     height: 16px;
     fill: var(--color-accent2);
@@ -163,7 +167,8 @@ header {
     color: var(--color-link);
     
 }
-.adr-link:hover .adr-icon {
+.adr-link:hover .adr-icon, 
+.adr-link:focus .adr-icon {
     fill: var(--color-link);
 }
 
@@ -374,15 +379,19 @@ section {
     width: 20px;
     height: 20px;
     fill: var(--color-clients);
+    align-items: center;
+    
 }
 
 .social-button {
+
     padding: 0;
     border: 0;
     background-color: var(--color-accent0);
     border-radius: 50%;
     width: 44px;
     height: 44px;
+    
     
 }
 .social-item {
@@ -408,6 +417,7 @@ section {
 
 .clients-inner {
     display: flex;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -417,7 +427,7 @@ section {
     fill: var(--color-clients);
 }
 
-.client-box {
+.client-web {
     box-sizing: border-box;
     display: flex;
     width: 170px;
@@ -426,17 +436,15 @@ section {
     justify-content: center;
     border-radius: 4px;
     border: 1px solid var(--color-clients);
-    gap: 30px;
-
 }
 
-.client-box:hover,
-.client-box:focus {
+.client-web:hover,
+.client-web:focus {
     cursor: pointer;
 }
 
-.client-box:hover .client-icon,
-.client-box:focus .client-icon{
+.client-web:hover .client-icon,
+.client-web:focus .client-icon{
     fill: var(--color-link);
 }
 
